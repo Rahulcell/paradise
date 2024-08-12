@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Your Address</title>
+    <style>
+        header img {
+        width: 80px;
+        padding-top: 3%;
+        }
+        * {
+        font-family: sans-serif;
+    text-align: center;
+    }
+    header {
+        background-color: brown;
+        
+    }
+    form {
+        background-color: beige;    
+    }
+    .hh {
+        background-color:brown;
+        color: aliceblue;
+        text-decoration: none;
+
+    }
+    .logo {
+        padding-bottom: 2%;
+        color: aliceblue;
+    }
+
+        </style>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./images/Paradise-Logo1.jpg" alt="logo" width="80px"></a><h4 class="logo">Paradise Restaurent</h4>
+    </header>
+    <form method="post" action="./order acc.html">
+        <dl>
+            <dt>
+                <label for="name">Enter Your Name:</label>
+                <input type="text" id="name" required ="cusnam" pattern="[a-zA-Z]+" title="Enter in Alphabets Ex: Rahul">
+            </dt>
+            <dt>
+                <label for="no">Enter Your Mobile No:</label>
+                <input type="text" id="no" required name="mno" pattern="\+91(7|8|9)+[\d]{9}" title="ENter in Indian Format Ex: +91 xxxxxxxxxx">
+            </dt>
+            <dt>
+                <label for="ad">Enter Your Address:</label>
+                <input type="text" id="ad" required name="add" pattern="[a-zA-Z/d/s/-]+">
+            </dt>
+            <dt>
+                <label for="pay">Enter Your Name:</label>
+                <input type="radio" required id="pay" name="pm">Cash On Delivery
+                <input type="radio" id="pay" required name="pm" >Online
+            </dt>
+            <button class="hh" type="submit">Order Now</button>
+        </dl>
+    </form>
+</body>
+</html>

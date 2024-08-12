@@ -1,0 +1,39 @@
+* {
+    font-family: sans-serif;
+text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;    
+}
+
+
+header img {
+    width: 80px;
+    padding-top: 3%;
+
+}
+nav {
+    background-color: beige;
+    padding: 1%;
+    font-size: 16px;
+}
+
+header {
+    background-color: brown;
+    
+}
+nav li a:hover {
+    color:maroon
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    color: aliceblue;
+}
